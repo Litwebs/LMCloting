@@ -1,6 +1,6 @@
 import { NavLink, Link, Outlet } from "react-router-dom";
 import { Button } from "@/components/ui/button";
-import { Leaf, MessageCircle } from "lucide-react";
+import { Shirt, MessageCircle } from "lucide-react";
 import { enquireLink } from "@/lib/site";
 import { cn } from "@/lib/utils";
 
@@ -19,10 +19,10 @@ const Layout = () => {
         <div className="container flex h-16 items-center justify-between">
           <Link to="/" className="flex items-center gap-2">
             <div className="flex h-9 w-9 items-center justify-center rounded-xl bg-gradient-primary text-primary-foreground shadow-soft">
-              <Leaf className="h-5 w-5" />
+              <Shirt className="h-5 w-5" />
             </div>
             <span className="font-display text-lg font-bold tracking-tight">
-              The Thickening LTD
+              LM Clothing
             </span>
           </Link>
           <nav className="hidden items-center gap-8 md:flex">
@@ -74,11 +74,8 @@ const Layout = () => {
 
       <footer className="border-t border-border bg-secondary/30 py-8">
         <div className="container flex flex-col items-center justify-between gap-3 text-sm text-muted-foreground sm:flex-row">
-          <p>
-            © {new Date().getFullYear()} The Thickening LTD. All rights
-            reserved.
-          </p>
-          <p>UK-based vitamins & wellness store.</p>
+          <p>© {new Date().getFullYear()} LM Clothing. All rights reserved.</p>
+          <p>UK-based clothing brand.</p>
         </div>
       </footer>
 

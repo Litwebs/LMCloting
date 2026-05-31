@@ -29,8 +29,8 @@ const sections = [
   },
   {
     icon: AlertTriangle,
-    title: "Opened Products",
-    body: "For hygiene and safety reasons, opened supplements cannot be returned unless the product itself is found to be faulty or defective. If you believe a product is faulty, please contact us within 7 days of opening with details and we will assess on a case-by-case basis.",
+    title: "Worn or Used Items",
+    body: "For hygiene and fairness reasons, worn or washed clothing cannot be returned unless the item is found to be faulty or defective. If you believe an item is faulty, please contact us within 7 days of receiving it with details and we will assess on a case-by-case basis.",
   },
 ];
 

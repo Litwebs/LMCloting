@@ -1,5 +1,5 @@
 import { Button } from "@/components/ui/button";
-import { Leaf, MessageCircle, ShieldCheck, Sparkles } from "lucide-react";
+import { MessageCircle, ShieldCheck, Sparkles } from "lucide-react";
 import { enquireLink } from "@/lib/site";
 
 const About = () => {
@@ -11,14 +11,13 @@ const About = () => {
             About Us
           </span>
           <h1 className="font-display text-4xl font-bold tracking-tight sm:text-5xl">
-            Reasonably priced wellness, delivered with care.
+            Quality clothing, delivered with care.
           </h1>
           <p className="text-lg leading-relaxed text-muted-foreground">
-            The Thickening LTD supplies a hand-picked range of vitamins,
-            supplements, and wellness products at honest, affordable prices.
-            Whether you're after daily essentials or premium specialities like
-            Shilajit, our team is just a WhatsApp message away — quick to reply,
-            easy to deal with, and always happy to help.
+            LM Clothing offers a hand-picked range of clothing and streetwear at
+            honest, affordable prices. Whether you're after everyday essentials
+            or a standout piece, our team is just a WhatsApp message away —
+            quick to reply, easy to deal with, and always happy to help.
           </p>
           <Button asChild variant="whatsapp" size="lg">
             <a href={enquireLink()} target="_blank" rel="noopener noreferrer">
@@ -31,12 +30,12 @@ const About = () => {
             {
               icon: ShieldCheck,
               title: "Quality First",
-              text: "Trusted supplements you can rely on.",
+              text: "Carefully sourced clothing you can trust.",
             },
             {
-              icon: Leaf,
-              title: "Wellness Focus",
-              text: "Hand-picked for everyday health.",
+              icon: Sparkles,
+              title: "Fresh Styles",
+              text: "Hand-picked pieces for everyday wear.",
             },
             {
               icon: MessageCircle,

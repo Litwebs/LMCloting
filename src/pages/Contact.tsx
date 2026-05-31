@@ -44,7 +44,7 @@ const Contact = () => {
             <div className="text-xs font-semibold uppercase tracking-wider text-muted-foreground">
               Business
             </div>
-            <div className="font-display font-semibold">The Thickening LTD</div>
+            <div className="font-display font-semibold">LM Clothing</div>
           </div>
         </div>
         <div className="mt-10 text-center">
